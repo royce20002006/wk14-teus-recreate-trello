@@ -226,3 +226,44 @@ body {
   }
 
 }
+
+.board-1 {
+  background-image: url(./board-backgrounds/board-1-background.jpg);
+
+}
+
+.board-2 {
+  background-image: url(./board-backgrounds/board-2-background.jpg);
+}
+
+.board-3 {
+  background-image: url(./board-backgrounds/board-3-background.jpg);
+}
+
+.board-4 {
+  background-image: url(./board-backgrounds/board-4-background.jpg);
+}
+
+.board-5 {
+  background-image: url(./board-backgrounds/board-5-background.jpg);
+}
+
+.board-6 {
+  background-image: url(./board-backgrounds/board-6-background.jpg);
+}
+
+.board-7 {
+  background-image: url(./board-backgrounds/board-7-background.jpg);
+}
+
+.board-8 {
+  background-image: url(./board-backgrounds/board-8-background.jpg);
+}
+
+.board-9 {
+  background-image: url(./board-backgrounds/board-9-background.jpg);
+}
+
+.board-10 {
+  background-image: url(./board-backgrounds/board-10-background.jpg);
+}

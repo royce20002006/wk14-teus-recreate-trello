@@ -2,8 +2,8 @@
 
 /* Supplied CSS follows. */
 .header-nav__group{
-  display: flex;
-  flex-direction: row;
+  padding: 5px;
+  margin: 5px;
 
 }
 
@@ -22,6 +22,7 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
+  
 
 }
 
@@ -48,16 +49,7 @@ body {
   background-color: #CF513D ;
 }
 
-@media screen and (max-width:730px){
-  #search {
-    visibility: hidden;
 
-  }
-  #boards {
-    visibility: hidden;
-  }
-
-}
 
 .header-nav__button#search > input {
   border-style: none;
@@ -67,6 +59,7 @@ body {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  
 }
 
 .header-nav__button > .boards-label {
@@ -80,10 +73,9 @@ body {
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  top: 5px;
 }
 
- .header-nav__button > i{
+.header-nav__button > i{
   width: 24px;
 }
 
@@ -99,7 +91,7 @@ body {
   text-align: center;
 }
 
-.team__info h1 {
+.team__info > h1 {
   margin: 0 0 12px;
   font-size: 24px;
   font-weight: 600;
@@ -134,19 +126,7 @@ body {
   color: #172b4d;
 }
 
-@media screen and (min-width: 501px) {
-  .tabbed-nav__group {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
-}
 
-@media screen and (max-width: 500px) {
-  .tabbed-nav__group, .tabbed-nav__link {
-    display: block;
-  }
-}
 
 .boards__container {
   margin: 0 auto;
@@ -197,6 +177,103 @@ body {
   flex-direction: row;
 }
 
+
+
+
+.board-1 {
+  background-image: url(./board-backgrounds/board-1-background.jpg);
+  background-position: 30%;
+  background-size: 100%;
+}
+
+.board-2 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-2-background.jpg);
+}
+
+.board-3 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-3-background.jpg);
+  
+}
+
+.board-4 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-4-background.jpg);
+}
+
+.board-5 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-5-background.jpg);
+}
+
+.board-6 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-6-background.jpg);
+}
+
+.board-7 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-7-background.jpg);
+}
+
+.board-8 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-8-background.jpg);
+}
+
+.board-9 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-9-background.jpg);
+}
+
+.board-10 {
+  background-position: 30%;
+  background-size: 100%;
+  background-image: url(./board-backgrounds/board-10-background.jpg);
+}
+
+
+
+@media screen and (max-width:730px){
+  #search {
+    visibility: hidden;
+
+  }
+  #boards {
+    visibility: hidden;
+  }
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .boards__board {
+    width: 100%;
+    max-width: unset;
+  }
+  
+  .boards__container {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .boards__sidebar {
+    /* margin-bottom: 20%; */
+  }
+  
+}
+
 @media screen and (max-width: 1280px) and (min-width: 751px){
   .boards__board {
     width: 33%;
@@ -206,64 +283,19 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
+  
 }
 
-@media screen and (max-width: 750px) {
-  .boards__board {
-    width: 100%;
-    max-width: unset;
+@media screen and (min-width: 501px) {
+  .tabbed-nav__group {
+    
+    text-align: center;
+    justify-content: center;
   }
+}
 
-  .boards__container {
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 500px) {
+  .tabbed-nav__group, .tabbed-nav__link {
+    display: block;
   }
-
-  .boards__sidebar {
-    /* margin-bottom: 20%; */
-  }
-
-}
-
-.board-1 {
-  background-image: url(./board-backgrounds/board-1-background.jpg);
-
-}
-
-.board-2 {
-  background-image: url(./board-backgrounds/board-2-background.jpg);
-}
-
-.board-3 {
-  background-image: url(./board-backgrounds/board-3-background.jpg);
-}
-
-.board-4 {
-  background-image: url(./board-backgrounds/board-4-background.jpg);
-}
-
-.board-5 {
-  background-image: url(./board-backgrounds/board-5-background.jpg);
-}
-
-.board-6 {
-  background-image: url(./board-backgrounds/board-6-background.jpg);
-}
-
-.board-7 {
-  background-image: url(./board-backgrounds/board-7-background.jpg);
-}
-
-.board-8 {
-  background-image: url(./board-backgrounds/board-8-background.jpg);
-}
-
-.board-9 {
-  background-image: url(./board-backgrounds/board-9-background.jpg);
-}
-
-.board-10 {
-  background-image: url(./board-backgrounds/board-10-background.jpg);
 }
